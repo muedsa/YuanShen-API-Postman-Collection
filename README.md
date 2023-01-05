@@ -7,6 +7,6 @@ YuanShen API Postman Collection
 - Import [YuanShen-API-Postman-Collection](https://raw.githubusercontent.com/MUedsa/YuanShen-API-Postman-Collection/main/Yuanshen.postman_collection.json) into Postman
 - Put your Cookie of [`miyoushe.com`](https://www.miyoushe.com/ys)  into Postman global environment variables `mhy_cookie`
 
-[https://learning.postman.com/docs/getting-started/importing-and-exporting-data/#importing-data-into-postman](https://learning.postman.com/docs/getting-started/importing-and-exporting-data/#importing-data-into-postman)
-[https://learning.postman.com/docs/sending-requests/variables](https://learning.postman.com/docs/sending-requests/variables)
-[https://github.com/joolfe/postman-util-lib](https://github.com/joolfe/postman-util-lib)
+[https://learning.postman.com/docs/getting-started/importing-and-exporting-data/#importing-data-into-postman](https://learning.postman.com/docs/getting-started/importing-and-exporting-data/#importing-data-into-postman)  
+[https://learning.postman.com/docs/sending-requests/variables](https://learning.postman.com/docs/sending-requests/variables)  
+[https://github.com/joolfe/postman-util-lib](https://github.com/joolfe/postman-util-lib)  
