@@ -3,6 +3,7 @@ YuanShen API Postman Collection
 
 ## Usage
 - Import [postman-util-lib](https://raw.githubusercontent.com/joolfe/postman-util-lib/master/postman/PostmanUtilityLibv21.postman_collection.json) into Postman 
+- Run `Postman Util Lib/Lib install` for install dependency lib
 - Import [YuanShen-API-Postman-Collection](https://raw.githubusercontent.com/MUedsa/YuanShen-API-Postman-Collection/main/Yuanshen.postman_collection.json) into Postman
 
 [https://learning.postman.com/docs/getting-started/importing-and-exporting-data/#importing-data-into-postman](https://learning.postman.com/docs/getting-started/importing-and-exporting-data/#importing-data-into-postman)
