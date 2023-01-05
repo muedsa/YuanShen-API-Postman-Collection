@@ -2,7 +2,7 @@
 原神 API Postman Collection
 
 ## 用法
-- 导入依赖库 [postman-util-lib](https://raw.githubusercontent.com/joolfe/postman-util-lib/master/postman/PostmanUtilityLibv21.postman_collection.json) 到 Postman 
+- 导入依赖库 [postman-util-lib](https://raw.githubusercontent.com/joolfe/postman-util-lib/master/postman/PostmanUtilityLibv21.postman_collection.json) 到 Postman (仅使用了其中的md5()方法，可用其他库或自己实现方法来代替)
 - 运行一次 `Postman Util Lib/Lib install` 来安装依赖库[postman-util-lib]
 - 导入 [YuanShen-API-Postman-Collection](https://raw.githubusercontent.com/MUedsa/YuanShen-API-Postman-Collection/main/Yuanshen.postman_collection.json) 到 Postman
 - 设置Postman全局变量`mhy_cookie`为你的米游社Cookie [`miyoushe.com`](https://www.miyoushe.com/ys)
