@@ -1,0 +1,337 @@
+{
+	"info": {
+		"_postman_id": "ad43d8b4-33e1-4df4-bfb9-263ab617dd9a",
+		"name": "Yuanshen",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7442002"
+	},
+	"item": [
+		{
+			"name": "User Info",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Origin",
+						"value": "https://webstatic.mihoyo.com",
+						"type": "text"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Linux; Android 9; Unspecified Device) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/39.0.0.0 Mobile Safari/537.36 miHoYoBBS/2.2.0",
+						"type": "text"
+					},
+					{
+						"key": "x-rpc-app_version",
+						"value": "{{app_version}}",
+						"type": "text"
+					},
+					{
+						"key": "x-rpc-client_type",
+						"value": "{{client_type}}",
+						"type": "text"
+					},
+					{
+						"key": "Referer",
+						"value": "https://webstatic.mihoyo.com/app/community-game-records/index.html?v=6",
+						"type": "text"
+					},
+					{
+						"key": "Cookie",
+						"value": "{{mhy_cookie}}",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "com.mihoyo.hyperion",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api-takumi-record.mihoyo.com/game_record/app/genshin/api/index?role_id=100000001&server=cn_gf01",
+					"protocol": "https",
+					"host": [
+						"api-takumi-record",
+						"mihoyo",
+						"com"
+					],
+					"path": [
+						"game_record",
+						"app",
+						"genshin",
+						"api",
+						"index"
+					],
+					"query": [
+						{
+							"key": "role_id",
+							"value": "100000001"
+						},
+						{
+							"key": "server",
+							"value": "cn_gf01"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User Abyss",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Origin",
+						"value": "https://webstatic.mihoyo.com",
+						"type": "text"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Linux; Android 9; Unspecified Device) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/39.0.0.0 Mobile Safari/537.36 miHoYoBBS/2.2.0",
+						"type": "text"
+					},
+					{
+						"key": "x-rpc-app_version",
+						"value": "{{app_version}}",
+						"type": "text"
+					},
+					{
+						"key": "x-rpc-client_type",
+						"value": "{{client_type}}",
+						"type": "text"
+					},
+					{
+						"key": "Referer",
+						"value": "https://webstatic.mihoyo.com/app/community-game-records/index.html?v=6",
+						"type": "text"
+					},
+					{
+						"key": "Cookie",
+						"value": "{{mhy_cookie}}",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "com.mihoyo.hyperion",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api-takumi-record.mihoyo.com/game_record/app/genshin/api/spiralAbyss?role_id=100000001&schedule_type=1&server=cn_gf01",
+					"protocol": "https",
+					"host": [
+						"api-takumi-record",
+						"mihoyo",
+						"com"
+					],
+					"path": [
+						"game_record",
+						"app",
+						"genshin",
+						"api",
+						"spiralAbyss"
+					],
+					"query": [
+						{
+							"key": "role_id",
+							"value": "100000001"
+						},
+						{
+							"key": "schedule_type",
+							"value": "1"
+						},
+						{
+							"key": "server",
+							"value": "cn_gf01"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User Character",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Origin",
+						"value": "https://webstatic.mihoyo.com",
+						"type": "text"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Linux; Android 9; Unspecified Device) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/39.0.0.0 Mobile Safari/537.36 miHoYoBBS/2.2.0",
+						"type": "text"
+					},
+					{
+						"key": "x-rpc-app_version",
+						"value": "{{app_version}}",
+						"type": "text"
+					},
+					{
+						"key": "x-rpc-client_type",
+						"value": "{{client_type}}",
+						"type": "text"
+					},
+					{
+						"key": "Referer",
+						"value": "https://webstatic.mihoyo.com/app/community-game-records/index.html?v=6",
+						"type": "text"
+					},
+					{
+						"key": "Cookie",
+						"value": "{{mhy_cookie}}",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "com.mihoyo.hyperion",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"character_ids\": [10000052, 10000058],\r\n    \"role_id\": 100000001,\r\n    \"server\": \"cn_gf01\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api-takumi-record.mihoyo.com/game_record/app/genshin/api/character",
+					"protocol": "https",
+					"host": [
+						"api-takumi-record",
+						"mihoyo",
+						"com"
+					],
+					"path": [
+						"game_record",
+						"app",
+						"genshin",
+						"api",
+						"character"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"// Loading the library",
+					"eval(pm.globals.get('pmlib_code'));",
+					"",
+					"function getDS(body, queryAfterSort) {",
+					"    body = body || '';",
+					"    queryAfterSort = queryAfterSort || '';",
+					"    let salt = pm.variables.get('salt');",
+					"    let time = Number.parseInt(new Date().getTime() / 1000);",
+					"    let randomStr = 100000 + Number.parseInt(Math.random() * 100000);",
+					"    let signData = 'salt=' + salt + '&t=' + time + '&r=' + randomStr + '&b=' + body + '&q=' + queryAfterSort;",
+					"    let sign = pmlib.rs.KJUR.crypto.Util.md5(signData);",
+					"    return time + ',' + randomStr + ',' + sign;",
+					"}",
+					"",
+					"function sortedQueryStr(queryList) {",
+					"    if(!queryList){",
+					"        return '';",
+					"    }",
+					"    let queryArr = [];",
+					"    queryList.each(i => {",
+					"        queryArr.push(i.key + '=' + i.value);",
+					"    });",
+					"    return queryArr.sort().join('&');",
+					"}",
+					"",
+					"pm.request.addHeader({",
+					"    key: 'DS',",
+					"    value: getDS(pm.request.body.raw, sortedQueryStr(pm.request.url.query))",
+					"});",
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "salt",
+			"value": "xV8v4Qu54lUKrEYFZkJhB8cuOh9Asafs",
+			"type": "string"
+		},
+		{
+			"key": "app_version",
+			"value": "2.35.2",
+			"type": "string"
+		},
+		{
+			"key": "client_type",
+			"value": "5",
+			"type": "string"
+		}
+	]
+}
